@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "66c0bc4e9d07d877e8a73612"
+  },
+  "email": "user@example.com",
+  "password": "$2a$10$38Y/x.1cfEglu.yZlAhkmOC6lNWAPzvBZ8YsSNmkunOVSvLwxeste",
+  "role": "admin",
+  "favorites": [
+    {
+      "$oid": "66c0c46b1ed856a77f031ca4"
+    }
+  ],
+  "purchaseHistory": [
+    {
+      "book": {
+        "$oid": "66c0c46b1ed856a77f031ca4"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66c8b9eb17d559f3bbe64c8d"
+      }
+    },
+    {
+      "book": {
+        "$oid": "66c0c46b1ed856a77f031ca4"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66c8bb9517d559f3bbe64c97"
+      }
+    },
+    {
+      "book": {
+        "$oid": "66c0c46b1ed856a77f031ca4"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66c8bc0317d559f3bbe64cb0"
+      }
+    }
+  ],
+  "__v": 4,
+  "isBlocked": false,
+  "name": "Rawan",
+  "avatar": "66c0bc4e9d07d877e8a73612-1724936399522-globe.png"
+},
+{
+  "_id": {
+    "$oid": "66cccaf47520cdc84f1567a2"
+  },
+  "name": "Mohamed",
+  "email": "mohamed@test.com",
+  "password": "$2a$10$4ie1.JsGrTV/girvDz5fXu6PbqftvYd6dXFjWq6ShBoz3yToucktW",
+  "role": "user",
+  "favorites": [],
+  "isBlocked": false,
+  "purchaseHistory": [],
+  "__v": 0
+}]

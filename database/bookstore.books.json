@@ -1,0 +1,442 @@
+[{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c89"
+  },
+  "title": "Romeo and Juliet",
+  "author": "Shakespeare, William",
+  "price": 23.9,
+  "stock": 47,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-romeo-and-juliet.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c8a"
+  },
+  "title": "Moby Dick; Or, The Whale",
+  "author": "Melville, Herman",
+  "price": 15.39,
+  "stock": 77,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-moby-dick;-or,-the-whale.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c8b"
+  },
+  "title": "Middlemarch",
+  "author": "Eliot, George",
+  "price": 29.56,
+  "stock": 26,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-middlemarch.jpg",
+  "ratings": [],
+  "comments": [
+    {
+      "user": {
+        "$oid": "66c0bc4e9d07d877e8a73612"
+      },
+      "comment": "wow",
+      "_id": {
+        "$oid": "66d08733dd336dd3809dfe92"
+      },
+      "createdAt": {
+        "$date": "2024-08-29T14:35:31.753Z"
+      }
+    },
+    {
+      "user": {
+        "$oid": "66c0bc4e9d07d877e8a73612"
+      },
+      "comment": "interesting",
+      "_id": {
+        "$oid": "66d08745dd336dd3809dfe9a"
+      },
+      "createdAt": {
+        "$date": "2024-08-29T14:35:49.503Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c8c"
+  },
+  "title": "A Room with a View",
+  "author": "Forster, E. M. (Edward Morgan)",
+  "price": 13.43,
+  "stock": 35,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-a-room-with-a-view.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c8d"
+  },
+  "title": "The Complete Works of William Shakespeare",
+  "author": "Shakespeare, William",
+  "price": 10.6,
+  "stock": 97,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-complete-works-of-william-shakespeare.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c8e"
+  },
+  "title": "Little Women; Or, Meg, Jo, Beth, and Amy",
+  "author": "Alcott, Louisa May",
+  "price": 18.67,
+  "stock": 96,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-little-women;-or,-meg,-jo,-beth,-and-amy.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c8f"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Austen, Jane",
+  "price": 15.3,
+  "stock": 20,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-pride-and-prejudice.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c90"
+  },
+  "title": "The Enchanted April",
+  "author": "Von Arnim, Elizabeth",
+  "price": 29.69,
+  "stock": 57,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-enchanted-april.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c91"
+  },
+  "title": "The Adventures of Ferdinand Count Fathom â€” Complete",
+  "author": "Smollett, T. (Tobias)",
+  "price": 6.52,
+  "stock": 83,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-adventures-of-ferdinand-count-fathom-â€”-complete.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c92"
+  },
+  "title": "Cranford",
+  "author": "Gaskell, Elizabeth Cleghorn",
+  "price": 11.65,
+  "stock": 20,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-cranford.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c93"
+  },
+  "title": "The Blue Castle: a novel",
+  "author": "Montgomery, L. M. (Lucy Maud)",
+  "price": 10.87,
+  "stock": 84,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-blue-castle:-a-novel.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c94"
+  },
+  "title": "The Expedition of Humphry Clinker",
+  "author": "Smollett, T. (Tobias)",
+  "price": 18.43,
+  "stock": 65,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-expedition-of-humphry-clinker.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c95"
+  },
+  "title": "The Adventures of Roderick Random",
+  "author": "Smollett, T. (Tobias)",
+  "price": 11.03,
+  "stock": 96,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-adventures-of-roderick-random.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c96"
+  },
+  "title": "History of Tom Jones, a Foundling",
+  "author": "Fielding, Henry",
+  "price": 19.63,
+  "stock": 59,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-history-of-tom-jones,-a-foundling.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c97"
+  },
+  "title": "Twenty years after",
+  "author": "Dumas, Alexandre",
+  "price": 24.59,
+  "stock": 79,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-twenty-years-after.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c98"
+  },
+  "title": "My Life â€” Volume 1",
+  "author": "Wagner, Richard",
+  "price": 22.95,
+  "stock": 40,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-my-life-â€”-volume-1.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c99"
+  },
+  "title": "Ã†sop's Fables: A Version for Young Readers",
+  "author": "Aesop",
+  "price": 18.11,
+  "stock": 59,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-ã†sop's-fables:-a-version-for-young-readers.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c9a"
+  },
+  "title": "Frankenstein; Or, The Modern Prometheus",
+  "author": "Shelley, Mary Wollstonecraft",
+  "price": 6.95,
+  "stock": 74,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-frankenstein;-or,-the-modern-prometheus.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c9b"
+  },
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Carroll, Lewis",
+  "price": 13.88,
+  "stock": 70,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-alice's-adventures-in-wonderland.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c9c"
+  },
+  "title": "Calculus Made Easy: Being a very-simplest introduction to those beautiful methods which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus",
+  "author": "Thompson, Silvanus P. (Silvanus Phillips)",
+  "price": 27.27,
+  "stock": 74,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-calculus-made-easy:-being-a-very-simplest-introduction-to-those-beautiful-methods-which-are-generally-called-by-the-terrifying-names-of-the-differential-calculus-and-the-integral-calculus.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c9d"
+  },
+  "title": "Disqualified",
+  "author": "Fontenay, Charles L.",
+  "price": 22.45,
+  "stock": 88,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-disqualified.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c9e"
+  },
+  "title": "Crime and Punishment",
+  "author": "Dostoyevsky, Fyodor",
+  "price": 5.58,
+  "stock": 40,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-crime-and-punishment.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6c9f"
+  },
+  "title": "Dracula",
+  "author": "Stoker, Bram",
+  "price": 5.06,
+  "stock": 52,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-dracula.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca0"
+  },
+  "title": "Metamorphosis",
+  "author": "Kafka, Franz",
+  "price": 18.3,
+  "stock": 67,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-metamorphosis.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca1"
+  },
+  "title": "The Brothers Karamazov",
+  "author": "Dostoyevsky, Fyodor",
+  "price": 13.7,
+  "stock": 57,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-brothers-karamazov.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca2"
+  },
+  "title": "Don Quijote",
+  "author": "Cervantes Saavedra, Miguel de",
+  "price": 13.72,
+  "stock": 44,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-don-quijote.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca3"
+  },
+  "title": "The Picture of Dorian Gray",
+  "author": "Wilde, Oscar",
+  "price": 14.41,
+  "stock": 57,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-picture-of-dorian-gray.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca4"
+  },
+  "title": "The Great Gatsby",
+  "author": "Fitzgerald, F. Scott (Francis Scott)",
+  "price": 6.68,
+  "stock": 27,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-great-gatsby.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca5"
+  },
+  "title": "War and Peace",
+  "author": "Tolstoy, Leo, graf",
+  "price": 21.4,
+  "stock": 30,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-war-and-peace.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca6"
+  },
+  "title": "Ulysses",
+  "author": "Joyce, James",
+  "price": 28.53,
+  "stock": 11,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-ulysses.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca7"
+  },
+  "title": "A Tale of Two Cities",
+  "author": "Dickens, Charles",
+  "price": 19.13,
+  "stock": 90,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-a-tale-of-two-cities.jpg",
+  "ratings": [],
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66d06e78e7127338be2c6ca8"
+  },
+  "title": "The Adventures of Sherlock Holmes",
+  "author": "Doyle, Arthur Conan",
+  "price": 14.1,
+  "stock": 17,
+  "description": "Description not available.",
+  "coverImage": "66c0bc4e9d07d877e8a73612-the-adventures-of-sherlock-holmes.jpg",
+  "ratings": [],
+  "comments": []
+}]

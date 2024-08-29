@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66d099d5dd336dd3809dfefc"
+  },
+  "user": {
+    "$oid": "66c0bc4e9d07d877e8a73612"
+  },
+  "items": [
+    {
+      "book": {
+        "$oid": "66d06e78e7127338be2c6c8b"
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "66d099d5dd336dd3809dfefd"
+      }
+    }
+  ],
+  "totalPrice": 29.56,
+  "__v": 0
+}]
