@@ -1,0 +1,11 @@
+<div class="comment-manager">
+    <h2>Manage Comments</h2>
+    <ul>
+      <li *ngFor="let comment of comments">
+        <p>{{ comment.content }}</p>
+        <button (click)="deleteComment(comment._id)">Delete</button>
+        <button (click)="editComment(comment._id, 'New Content')">Edit</button>
+      </li>
+    </ul>
+  </div>
+  

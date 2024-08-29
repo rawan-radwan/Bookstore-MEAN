@@ -1,0 +1,46 @@
+/* book-manager.component.css */
+.book-manager {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-manager h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-manager form div {
+    margin-bottom: 15px;
+  }
+  
+  .book-manager label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .book-manager input,
+  .book-manager textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .book-manager button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #24d0ab;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-manager button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,46 @@
+/* user-manager.component.css */
+.user-manager {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-manager h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-manager ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-manager li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .user-manager button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-manager button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-manager input[type="file"] {
+    margin-top: 10px;
+  }
+  

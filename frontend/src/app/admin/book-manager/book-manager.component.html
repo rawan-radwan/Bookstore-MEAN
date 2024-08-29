@@ -1,0 +1,32 @@
+<!-- book-manager.component.html -->
+<div class="book-manager">
+    <h2>{{ isEdit ? 'Edit Book' : 'Add Book' }}</h2>
+    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="title">Title</label>
+        <input id="title" formControlName="title" type="text" />
+      </div>
+      <div>
+        <label for="author">Author</label>
+        <input id="author" formControlName="author" type="text" />
+      </div>
+      <div>
+        <label for="description">Description</label>
+        <textarea id="description" formControlName="description"></textarea>
+      </div>
+      <div>
+        <label for="price">Price</label>
+        <input id="price" formControlName="price" type="number" />
+      </div>
+      <div>
+        <label for="stock">Stock</label>
+        <input id="stock" formControlName="stock" type="number" />
+      </div>
+      <div>
+        <label for="coverImage">Cover</label>
+        <input id="coverImage" type="file" (change)="onFileChange($event)" />
+      </div>
+      <button type="submit">{{ isEdit ? 'Update' : 'Add' }} Book</button>
+    </form>
+  </div>
+  

@@ -1,0 +1,23 @@
+<!-- books.component.html -->
+<div class="book-list-container">
+  <h2 class="text-center">Books</h2>
+  <div class="book-grid">
+    <div class="book-card" *ngFor="let book of paginatedBooks">
+      <img [src]="getCoverImageUrl(book.coverImage)" class="book-image" alt="{{book.title}}">
+      <div class="book-details">
+        <h5 class="book-title">{{book.title}}</h5>
+        <p class="book-author">{{book.author}}</p>
+        <p class="book-price"><strong>Price:</strong> ${{book.price}}</p>
+        <a [routerLink]="['/books', book._id]" class="view-details-btn">View Details</a>
+        <button (click)="addToCart(book._id, 1)" class="add-to-cart-btn">Add to Cart</button> <br>
+        <button *ngIf="isAdmin()" (click)="editBook(book._id)" class="edit-book-btn">Edit</button> <br>
+        <button *ngIf="isAdmin()" (click)="deleteBook(book._id)" class="delete-book-btn">Delete</button>
+      </div>
+    </div>
+  </div>
+  <div class="pagination-controls">
+    <button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+    <span>Page {{currentPage}} of {{totalPages}}</span>
+    <button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+  </div>
+</div>

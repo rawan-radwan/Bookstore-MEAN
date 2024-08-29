@@ -1,0 +1,42 @@
+<div class="user-profile-container">
+  <h2 class="text-center">User Profile</h2>
+  <div class="user-profile-content">
+    <div class="user-info">
+      <h4>Name: {{user?.name}}</h4>
+      <p>Email: {{user?.email}}</p>
+    </div>  
+    <div class="avatar-container">
+      <img [src]="getAvatarUrl(user?.avatar)" class="avatar-image" alt="{{user?.name}}">
+      <input type="file" (change)="changeAvatar($event)" class="avatar-upload">
+    </div>
+  </div>
+
+    <div class="purchase-history-section">
+      <h2>Purchase History</h2>
+      <div *ngFor="let purchase of purchaseHistory" class="purchase-card">
+          <h3>Order ID: {{ purchase._id }}</h3>
+          <p><strong>Address:</strong> {{ purchase.address }}</p>
+          <p><strong>Total Price:</strong> {{ purchase.totalPrice }}</p>
+          <p><strong>Payment Method:</strong> {{ purchase.paymentMethod }}</p>
+          <p><strong>Status:</strong> {{ purchase.status }}</p>
+          <p><strong>Created At:</strong> {{ purchase.createdAt | date }}</p>
+          
+          <div class="purchase-items-grid">
+            <h4>Items:</h4>
+            <div *ngFor="let item of purchase.items" class="item-card-grid">
+                <img *ngIf="item.book.coverImage" [src]="getImageUrl(item.book.coverImage)" alt="{{ item.book.title }}" class="item-image-grid"/>
+                <div class="item-details-grid">
+                    <p><strong>Title:</strong> {{ item.book.title }}</p>
+                    <p><strong>Author:</strong> {{ item.book.author }}</p>
+                    <p><strong>Quantity:</strong> {{ item.quantity }}</p>
+                    <p><strong>Price:</strong> {{ item.book.price | currency }}</p>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+    
+    <ng-template #noHistory>
+      <p>No purchase history found.</p>
+    </ng-template>
+</div>

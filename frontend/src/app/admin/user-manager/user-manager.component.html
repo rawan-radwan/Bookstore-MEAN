@@ -1,0 +1,12 @@
+<div class="user-manager">
+    <h2>Manage Users</h2>
+    <ul>
+      <li *ngFor="let user of users">
+        <p>{{ user.name }} ({{ user.email }})</p>
+        <button (click)="blockUser(user._id)" *ngIf="!user.isBlocked">Block</button>
+        <button (click)="unblockUser(user._id)" *ngIf="user.isBlocked">Unblock</button>
+        <input type="file" (change)="changeUserAvatar(user._id, $event)" />
+      </li>
+    </ul>
+  </div>
+  

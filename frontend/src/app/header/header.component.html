@@ -1,0 +1,25 @@
+<!-- header.component.html -->
+<header>
+  <div class="container">
+    <div class="logo">
+      <a routerLink="/">
+        <img src="bookIcon.png" alt="BookStore Logo" class="logo-icon"> BookStore
+      </a>
+    </div>
+    <nav>
+      <a routerLink="/home">Home</a>
+      <a routerLink="/books">Books</a>
+      <a routerLink="/cart">Cart</a>
+      <a routerLink="/profile" *ngIf="isAuthenticated()">Profile</a>
+      <a routerLink="/register" *ngIf="!isAuthenticated()">Register</a>
+      <a routerLink="/login" *ngIf="!isAuthenticated()">Login</a>
+      <div class="dropdown" *ngIf="isAuthenticated()">
+        <button class="dropbtn">Account</button>
+        <div class="dropdown-content">
+          <a (click)="logout()">Logout</a>
+          <a *ngIf="isAdmin()" routerLink="/admin/add-book">Manage Books</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
